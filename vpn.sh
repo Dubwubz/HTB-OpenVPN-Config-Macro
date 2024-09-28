@@ -30,4 +30,4 @@ mv $Target /home/dubwubz/HTB/openvpnlab/
 sleep 1
 echo " "
 echo "All done!"
-sudo openvpn $vpn
+openvpn $vpn
