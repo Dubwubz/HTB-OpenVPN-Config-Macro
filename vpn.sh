@@ -7,6 +7,7 @@ echo "++++++++++++++++++++++++++++"
 sleep 1
 echo " "
 echo "WARNING removing downloads ending in .ovpn, press enter to continue"
+read
 rm -f /mnt/c/Users/Owner/Downloads/* | grep *.ovpn
 sleep 1
 echo " "
